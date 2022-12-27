@@ -1,0 +1,103 @@
+.app__header {
+    /* background-color: var(--color-black);  */
+    background: url('../../assets/introramen.jpg');
+    background-color: rgba(0, 0, 0, 0.356);
+    background-position: left;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: soft-light;
+
+}
+
+.app__header2 {
+    padding-bottom: 6rem;
+}
+
+.app__header2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 300;
+    color: var(--color-white);
+    background-color: rgba(190, 56, 56, 0.589);
+    border-radius: 15px;
+    padding: 0.7rem 1.5rem;
+
+
+    /* padding: 1rem 1rem 1rem 2rem; */
+    /* text-shadow: 1px 1px px #111111;
+    -webkit-text-stroke: 1px #747070; */
+}
+
+/* .app__header img{
+        opacity: 0.35;
+
+} */
+/* .app__header-overlay{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0,0,0,.1);
+    background-position: left;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.85;
+    z-index: -1;
+} */
+
+.app__header-h1 {
+    color: var(--color-white);
+    font-family: var(--font-base);
+    font-size: 150px;
+    letter-spacing: 0.04rem;
+    line-height: 117px;
+    text-transform: uppercase;
+    /* padding-bottom: 4rem; */
+}
+
+.app__header-button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.app__header-button button {
+    font-family: var(--font-new);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 28px;
+    font-size: 30px;
+    text-shadow: 1px 1px 3px #0c0c0c;
+
+}
+
+
+@media screen and (max-width: 2000px) {}
+
+@media screen and (max-width: 900px) {}
+
+@media screen and (max-width: 650px) {
+
+    .app__header-h1 {
+        font-size: 70px;
+        letter-spacing: 0.04rem;
+        line-height: 90px;
+        text-transform: uppercase;
+        /* padding-bottom: 4rem; */
+    }
+
+    .app__header2 {
+        padding-bottom: 4rem;
+    }
+    .app__header-button button{
+        font-weight: 500;
+        letter-spacing: 0.01em;
+        text-transform: capitalize;
+        line-height: 28px;
+        font-size: 15px;
+        text-shadow: 1px 1px 3px #000e88;
+        
+    }
+}

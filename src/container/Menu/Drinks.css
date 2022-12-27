@@ -1,0 +1,79 @@
+.app__drinks{
+    flex-direction: column;
+    /* background: var(--color-black); */
+    background: url('../../assets/bkgrnd4.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.356);
+    background-blend-mode: soft-light;
+    background-attachment: fixed;
+}
+
+.app__drinks-title{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.app__drinks-menu{
+    width: 100%;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.app__drinks-menu_heading{
+    font-family: var(--font-base);
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 58.5px;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+}
+.app__drinks-menu_wines, .app__drinks-menu_cocktails{
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+}
+.app__drinks-menu_img {
+    width: 410px;
+    margin: 0 2rem;
+}
+.app__drinks-menu_img img{
+    width: 100%;
+    height: auto;
+}
+.app__drinks-menu_items {
+    display: flex; 
+    flex-direction: column;
+    
+    margin: 2rem 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 2000px){
+    .app__meals-menu_img{
+        width: 350px;
+    }
+    .app__meals-menu_img img{
+        height: 520px;
+    }
+}
+@media screen and (max-width: 1150px){
+    .app__drinks-menu{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .app__drinks-menu_img{
+        margin: 2rem 0;
+    }
+}
+@media screen and (max-width: 650px){
+    .app__spepcialMenu-menu_img{
+        width: 100%;
+    }
+    .app__drinks-menu_heading{
+        font-size: 35px;
+        line-height: 48.5px;
+    }
+}

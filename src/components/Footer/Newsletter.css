@@ -1,0 +1,61 @@
+.app__newsletter{
+    padding: 2rem 4rem;
+    border: 1px solid var(--color-golden);
+    background: var(--color-black);
+}
+.app__newsletter-heading{
+    text-align: center;
+}
+.app__newsletter-input{
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.app__newsletter-input input, textarea{
+    width: 620px;
+    border: 1px solid var(--color-golden);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--font-base);
+    color: var(--color-white);
+
+    margin-right: 2rem;    
+    margin-bottom: 2rem; 
+    padding: 0.75rem 1rem;
+    background: var(--color-black);
+    letter-spacing: 0.04em;
+
+
+}
+.app__newsletter-input button{
+    width: max-content;
+    
+}
+
+@media screen and (min-width: 2000px){
+    .app__newsletter-input input{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .app__newsletter-input{
+        flex-direction: column;
+        width: 100%;
+    }
+    .app__newsletter-input input, textarea{
+        margin: 0 0 2rem 0;
+        width: 90%;
+    }
+}
+@media screen and (max-width: 650px){
+    .app__newsletter{
+        padding: 2rem 0;
+        border: none;
+    }
+}
+@media screen and (max-width: 300px){
+    .app__newsletter-heading h1{
+        font-size: 32px;
+        line-height: 50px;
+    }
+}
