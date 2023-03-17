@@ -11,6 +11,6 @@ Frontend Restaurant website with Headers, Footers, variations of menus and 'orde
 Purely React and React icons organized into easily identifiable folder structures. Heavily CSS based project. 
 Each component has its own css folder while also having global App.css and index.css files to target overall features. 
 
-**npm start**
+**_npm start_**
 
 A fan of TailwindCSS(please don't strangle me) but for a website as UI heavy as this, in order to have a more personalized look, the classical CSS made sense to me. 
