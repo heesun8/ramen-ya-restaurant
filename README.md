@@ -1,6 +1,6 @@
 # Ramen-Ya Restaurant 
 
-Wanted to make a website for one my favorite meals. (_Do people who don't like Ramen exist? If it's you reading write now, forgive me_) 
+Wanted to make a website for one of my favorite meals. (_Do people who don't like Ramen exist? If it's you reading write now, forgive me_) 
 
 Frontend Restaurant website with Headers, Footers, variations of menus and 'order' buttons and review features. 
 
@@ -14,4 +14,4 @@ Each component has its own css folder while also having global App.css and index
 
 **_npm start_**
 
-A fan of TailwindCSS(_please don't strangle me_) but for a website as UI heavy as this, in order to have a more personalized look, the classical CSS made sense to me. 
+I am a fan of TailwindCSS(_please don't strangle me_) but for a website as UI heavy as this, in order to have a more personalized look, the classic CSS approach made sense to me. 
